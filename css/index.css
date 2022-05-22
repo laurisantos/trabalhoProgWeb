@@ -1,228 +1,219 @@
-  /* style de index.html / tela principal   */
-  
-  .adicionar{
-    position: relative;
-    font-size: .8em;
-    color: #f0f0f0;
-    width: 30vw;
-    height: 12vw;
-    padding: 1px;
-    margin: 3vh;
-    flex-direction: row;
-    justify-content: center;
-    background-color: rgb(172, 166, 159);
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    text-align: center;
-    text-overflow: ellipsis;
-    overflow: hidden;
-  }
+/* style de index.html / tela principal   */
 
-  .adicionar-title {
-    background-color: rgb(77, 72, 72);
-    padding: 5px;
-    padding-left: 3px;
-    border-radius: 15px;
-    margin: 4% 15%;
-  }
+.adicionar {
+  position: relative;
+  font-size: 0.8em;
+  color: #f0f0f0;
+  width: 30vw;
+  height: 12vw;
+  padding: 1px;
+  margin: 3vh;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(172, 166, 159);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
 
-  div.adicionar > .add-movie-btn {
-    display: flex;
-    position: absolute;
-    font-size: 2.1em;
-    flex-direction: column;
-    padding-left: 50px;
-  }
+.adicionar-title {
+  background-color: rgb(77, 72, 72);
+  padding: 5px;
+  padding-left: 3px;
+  border-radius: 15px;
+  margin: 4% 15%;
+}
 
-  div.adicionar >.add-movie-btn ion-icon {
-    font-size: 2em;
+div.adicionar > .add-movie-btn {
+  display: flex;
+  position: absolute;
+  font-size: 2.1em;
+  flex-direction: column;
+  padding-left: 50px;
+}
 
-    color: rgb(97, 92, 90);
-  }
+div.adicionar > .add-movie-btn ion-icon {
+  font-size: 2em;
 
-  div.adicionar > .add-book-btn {
-    display: flex;
-    position: absolute;
-    font-size: 2.1em;
-    flex-direction: column;
-    padding-left: 250px;  
-  }
+  color: rgb(97, 92, 90);
+}
 
-  .add-book-btn:hover {
-    cursor: pointer;
-  }
-  
-  div.adicionar >.add-book-btn ion-icon {
-    font-size: 2em;
-    color: rgb(51, 64, 85);
-  }
+div.adicionar > .add-book-btn {
+  display: flex;
+  position: absolute;
+  font-size: 2.1em;
+  flex-direction: column;
+  padding-left: 250px;
+}
 
-  div.adicionar > .add-serie-btn {
-    display: flex;
-    position: absolute;
-    font-size: 2.1em;
-    flex-direction: column;
-    padding-left: 450px;
-  }
+.add-book-btn:hover {
+  cursor: pointer;
+}
 
-  div.adicionar >.add-serie-btn ion-icon {
-    font-size: 2em;
-    color: rgb(95, 27, 27);
-  }
-  
-  div.adicionar > div > span {
-    font-size: 0.45em;
-  }
-  
+div.adicionar > .add-book-btn ion-icon {
+  font-size: 2em;
+  color: rgb(51, 64, 85);
+}
 
-  .menu-item {
-    width: 100%;
-    margin: 4px;
-    font-size: 1em;
-    justify-content: center;
-    align-items: center;
-    color:whitesmoke
-  }
+div.adicionar > .add-serie-btn {
+  display: flex;
+  position: absolute;
+  font-size: 2.1em;
+  flex-direction: column;
+  padding-left: 450px;
+}
 
-  /* menu-item state */
-  .menu-item:hover {
-    cursor: pointer;
-  }
+div.adicionar > .add-serie-btn ion-icon {
+  font-size: 2em;
+  color: rgb(95, 27, 27);
+}
 
-  .menu-item:active {
-    color: rgb(44, 51, 63);
-  }
+div.adicionar > div > span {
+  font-size: 0.45em;
+}
 
+.menu-item {
+  width: 100%;
+  margin: 4px;
+  font-size: 1em;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
 
-  .pesquisa {
-    position: relative;
-    font-size: 1.5em;
-    color: #f0f0f0;
-    width: 30vw;
-    height: 5vw;
-    padding: 1px;
-    margin: 3vh;
-    flex-direction: row;
-    justify-content: center;
-    background-color: rgb(59, 98, 125);
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    text-align: center;
-    text-overflow: ellipsis;
-    overflow: hidden;
-  }
+/* menu-item state */
+.menu-item:hover {
+  cursor: pointer;
+}
 
-  .campo{
-    padding: 15px;
-  }
+.menu-item:active {
+  color: rgb(44, 51, 63);
+}
 
-  .campo > input {
-    height: 35px;
-    border: 1px solid var(--border-color);
-    flex-grow: 1;
-    font-size: 0.8em;
-  }
-  
-  .campo > button {
-    height: 36px;
-    min-width: 45px;
-    border: 1px solid var(--border-color);
-    border-left: 0;
-    display: relative;
-    justify-content: center;
-    align-items: center;
-  }
+.pesquisa {
+  position: relative;
+  font-size: 1.5em;
+  color: #f0f0f0;
+  width: 30vw;
+  height: 5vw;
+  padding: 1px;
+  margin: 3vh;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(59, 98, 125);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
 
-  .pesquisa ion-icon {
-    font-size: 1.25em;
-    cursor: pointer;
-    
-  }
+.campo {
+  padding: 15px;
+}
 
-  /* sidebar */
-  .sidebar {
-    position: fixed;
-    width: 12vw;
-    top: 10vh;
-    height: 85vh ;    
-    border-right: 1px solid var(--border-color);
-    padding-top: 15px;
-    background-color: rgb(48, 24, 36);
-  }
-  
-  
-  /* main-content */
-  .container {
-    background-color: #242121;
-    display: flex;
-    flex-direction: row;
-  }
+.campo > input {
+  height: 35px;
+  border: 1px solid var(--border-color);
+  flex-grow: 1;
+  font-size: 0.8em;
+}
 
-  .content {
-    min-height: 80vh;
-    width: 100%;
-    margin-top: 10vh;
-    margin-left: 22vw;
-  }
+.campo > button {
+  height: 36px;
+  min-width: 45px;
+  border: 1px solid var(--border-color);
+  border-left: 0;
+  display: relative;
+  justify-content: center;
+  align-items: center;
+}
 
+.pesquisa ion-icon {
+  font-size: 1.25em;
+  cursor: pointer;
+}
 
-  /* modal */
-  .modal {
-    position: fixed;
-    display: none;
-    flex-direction: column;
-    margin-left: 20vw;
-    margin-top: 12vh;
-    height: 60vh;
-    width: 50vw;
-    margin-right: 50vw;
-    border-radius: 10px;
-    
-  }
+/* sidebar */
+.sidebar {
+  position: fixed;
+  width: 12vw;
+  top: 10vh;
+  height: 85vh;
+  border-right: 1px solid var(--border-color);
+  padding-top: 15px;
+  background-color: rgb(48, 24, 36);
+}
 
-  .modal > .modal-serie{
-    background-color: rgb(95, 27, 27);
+/* main-content */
+.container {
+  background-color: #242121;
+  display: flex;
+  flex-direction: row;
+}
 
-  }
+.content {
+  min-height: 80vh;
+  width: 100%;
+  margin-top: 10vh;
+  margin-left: 22vw;
+}
 
-  .modal-label {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
-    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: rgb(77, 72, 72);
-    padding: 5px;
-    padding-left: 3px;
-    border-radius: 15px;
-    margin: 4% 15%;
-    align-self: center;
-  }
+/* modal */
+.modal {
+  position: fixed;
+  display: none;
+  flex-direction: column;
+  margin-left: 20vw;
+  margin-top: 12vh;
+  height: 60vh;
+  width: 50vw;
+  margin-right: 50vw;
+  border-radius: 10px;
+}
 
-  .close-icon {
-    font-size: 30px;
-    padding-left: 95%;
-    align-self: flex-end;
-    color: #f0f0f0;
-  }
+.modal > .modal-serie {
+  background-color: rgb(95, 27, 27);
+}
 
-  .close-icon:hover {
-    cursor: pointer;
-  }
+.modal-label {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgb(77, 72, 72);
+  padding: 5px;
+  padding-left: 3px;
+  border-radius: 15px;
+  margin: 4% 15%;
+  align-self: center;
+}
 
-  .input-field {
-    margin: 3vh;
-    border: none;
-    border-radius: 5px;
-  }
+.close-icon {
+  font-size: 30px;
+  padding-left: 95%;
+  align-self: flex-end;
+  color: #f0f0f0;
+}
 
-  .input-task-name {
-    width: 50%;
-    line-height: 300%;
-    padding: 1%;
-  }
+.close-icon:hover {
+  cursor: pointer;
+}
 
-  .input-task-description {
-    width: 70%;
-    padding: 1%;
-    /* max-height: 70vh; */
-  }
+.input-field {
+  margin: 3vh;
+  border: none;
+  border-radius: 5px;
+}
 
-  
+.input-task-name {
+  width: 50%;
+  line-height: 300%;
+  padding: 1%;
+}
+
+.input-task-description {
+  width: 70%;
+  padding: 1%;
+  /* max-height: 70vh; */
+}
